@@ -10,6 +10,17 @@
 		color: #226;
 		border-bottom: 3px dotted #77d;
 	}
+	div.index_counter {
+		display: inline;
+		p {
+			margin: 0;
+			padding-top: 0.5em;
+			padding-bottom: 0.5em;
+			font: 150% sans-serif;
+			color: #c0c0c0;
+		}
+		
+	}
 
 	.entry {
 		overflow: auto;
@@ -34,6 +45,10 @@
 			margin-left: 100px;
 			margin-top: 0.5em;
 			margin-bottom: 0.8em;
+
+			form, div {
+				display: inline;
+			}
 		}
 		.price {
 			color: #44a;
